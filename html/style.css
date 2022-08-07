@@ -1,0 +1,264 @@
+#imageContainer img{
+    width:auto;
+    height:300px;
+}
+
+#questionTitle{
+  margin-top: 10%;
+  text-align: center;
+  font-size: 3vw;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  color:#7c4d25;
+}
+.correctanswer{
+  background-color:  #f2fddc !important;
+}
+
+.wronganswer{
+    background-color: #ffeeee !important;
+}
+
+#settingSelectionContainer{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+#settingSelectionContainer div{
+   text-align: center;
+   vertical-align: middle;
+   margin-top: 10px;
+   line-height: 15vw;
+   border-radius: 2%;
+   display: flex;
+   justify-content: center;
+   font-size: 1.5vw;
+}
+
+#successRateContainer{
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+#successRateResultContainer div{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  line-height: 15vw;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5vw;
+}
+
+#questionContainer{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    text-align: center;
+}
+
+#imageContainer{
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 1%;
+}
+
+#imageContainer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#answerContainer{
+  margin: auto;
+  width: 100%;
+}
+
+.answer{
+   text-align: center;
+   line-height: 50px;
+   background-color: white;
+   color:#7c4d25;
+   width: 45%;
+   display: inline-block;
+   margin: 5px 5px 5px 5px;
+   height: 5vw;
+   line-height: 4vw;
+   font-size: 1vw;
+}
+
+#highscoreContainer{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+#nameContainer{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    padding-top:13%;
+    display: block;
+    color: #7c4d25;
+    font-size: 1.5vw;
+    border-radius: 30px;
+}
+
+#button{
+  font-size: 1.5vw;
+  color: #7c4d25;
+  background-color: white;
+  height: 15vw;
+  width: 15vw;
+  padding: 0px;
+  text-align: center;
+  line-height: 5;
+  float: left;
+  margin: 3%;
+}
+
+#buttonSuccessRate{
+  font-size: 1.5vw;
+  color: #7c4d25;
+  background-color: white;
+  height: 17vw;
+  width: 17vw;
+  padding: 0px;
+  text-align: center;
+  line-height: 5;
+  float: left;
+  margin: 3%;
+}
+
+body{
+    background-color: lightblue;
+    color: #ea8d97;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+h2{
+  margin-top: 10%;
+  margin-bottom: 1%;
+  text-align: center;
+  font-size: 3vw;
+  color:#7c4d25;
+}
+
+h3{
+  color:#7c4d25;
+}
+
+#correctAnswers{
+  color:#7c4d25;
+  font-size:1.5vw;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    color:#7c4d25
+  }
+
+  .back-to-quiz-button {
+    background-color: white; /* Green */
+    border: none;
+    color: #7c4d25;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 25%;
+    position: absolute;
+    bottom: 5%;
+    right: 45%;
+  }
+
+
+#txtBoxName {
+    width: 50%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    margin-bottom: 15vw;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom:30px;
+    background: white;
+    border: 10px solid #e1ddda;
+    font-size: 1.5vw;
+  }
+
+  #name {
+    font-size: 3vw;
+  }
+  
+  #nameContinue{
+    background-color: white;
+    border: none;
+    color: #7c4d25;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 60px;
+  }
+
+  .btnHome {
+    background-color: transparent;
+    border: none;
+    color: #7c4d25;
+    padding: 12px 16px;
+    font-size: 2vw;
+    cursor: pointer;
+    float: right;
+  }
+
+  #btnShowSuccessRates {
+    background-color: transparent;
+    border: none;
+    color: #7c4d25;
+    margin: 11px;
+    padding: 12px 0px;
+    font-size: 2vw;
+    cursor: pointer;
+    float: right;
+  }
+
+  #btnResetSuccessRate{
+    background-color: transparent;
+    border: none;
+    color: #7c4d25;
+    padding: 6px 0px;
+    font-size: 2vw;
+    cursor: pointer;
+    float: right;
+  }
+
+  .btnSuccess {
+    background-color: transparent;
+    border: none;
+    color: #7c4d25;
+    padding: 12px 16px;
+    font-size: 2vw;
+    cursor: pointer;
+    float: left;
+  }

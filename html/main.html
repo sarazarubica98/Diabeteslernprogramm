@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Ernährungsspiel</title>
+    <meta name="viewport" content="width=1280, user-scalable=no" />
+    <meta charset="UTF-8">
+    <script src="promise.js"></script>
+    <script src="qi.js"></script>
+    <script src="language.js"></script>
+    <script src="questions.js"></script>
+    <script src="pepper-interaction.js"></script>
+    <script src="tablet-interaction.js"></script>
+    <script src="quiz.js"></script>
+    <script src="highscore.js"></script>
+    <script src="utils.js"></script>
+    <script src="success-rate.js"></script>
+    <script src="main.js"></script>
+    <script src="pronunciation.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="btnShowSuccessRates" onclick="navigateToAdminPage(event)"><img src="pictures/statistic.png" width="50px"></button> 
+    <button class="btnHome" onclick="backToQuiz(event)"><img src="pictures/home.png" width="50px"></button>
+    <div id="nameContainer">
+        <h1 id="name">Wie heisst du?</h2>
+        <input id="txtBoxName" type="text" maxlength="15"/><br/>
+        <button id="nameContinue" onclick="startQuiz()">Weiter</button>
+    </div>
+    <div id="settingSelectionContainer"  style="display:none">
+    </div>
+    <div id="quizContainer" style="display:none">
+        <div id="questionContainer"></div>
+    </div>
+    <div id="highscoreContainer"  style="display:none">
+        <h2>Das Spiel ist vorbei</h2>
+        <div id="correctAnswers"></div>
+        <div id="highscoreTableContainer"></div>
+        <button class="back-to-quiz-button" id="btnBackToQuiz" onclick="backToQuiz(event)">Nochmals spielen</button>
+    </div>
+    <div id="successRateContainer">
+        <button id="btnResetSuccessRate"><img src="pictures/back.png" width="50px"></button>
+        <div id="successRateResultContainer"></div>
+    </div>
+</body>
+
+</html>
