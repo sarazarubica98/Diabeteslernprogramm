@@ -128,6 +128,8 @@
         <File name="suesskartoffelnmittel" src="html/pictures/suesskartoffelnmittel.JPG" />
         <File name="trauben" src="html/pictures/trauben.JPG" />
         <File name="zopf" src="html/pictures/zopf.JPG" />
+        <File name="erdnuesse" src="html/pictures/erdnuesse.JPG" />
+        <File name="vollkornbrot" src="html/pictures/vollkornbrot.JPG" />
     </Resources>
     <Topics />
     <IgnoredPaths />
